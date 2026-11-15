@@ -1,5 +1,10 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import "./MenuCards.css";
+import "./MenuCards.css"
+import firstImg from "../assets/firstImg.avif"
+import secondImg from "../assets/secondImg.jfif"
+import thirdImg from "../assets/thirdImg.avif"
+import fourthImg from "../assets/fourthImg.avif"
+
 
 // Add, edit or remove items here
 const menuItems = [
@@ -8,32 +13,29 @@ const menuItems = [
     name: "Espresso",
     description: "Rich and bold shot made from freshly ground beans.",
     price: "$3.50",
-    image:
-      "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=600&q=80",
+    image: firstImg
+    
   },
   {
     id: 2,
     name: "Caramel Latte",
     description: "Smooth espresso with steamed milk and caramel syrup.",
     price: "$4.80",
-    image:
-      "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80",
+    image: secondImg
   },
   {
     id: 3,
     name: "Cold Brew",
     description: "Slow steeped for 12 hours and served over ice.",
     price: "$4.20",
-    image:
-      "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80",
+    image: thirdImg
   },
   {
     id: 4,
     name: "Butter Croissant",
     description: "Flaky, golden and baked fresh every morning.",
     price: "$3.00",
-    image:
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80",
+    image: fourthImg
   },
 ];
 
