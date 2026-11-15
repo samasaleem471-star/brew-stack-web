@@ -1,0 +1,68 @@
+/* Section background */
+.about-section {
+  background-color: #d9bfa3;
+}
+
+/* Image */
+.about-img {
+  border-radius: 12px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.about-heading {
+  color: #3e2723;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  color: #3e2723;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Facts row */
+.about-facts {
+  margin-top: 25px;
+}
+
+.about-number {
+  color: #6f4e37;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.about-label {
+  color: #3e2723;
+  font-size: 15px;
+}
+
+/* Button */
+.about-btn {
+  background-color: #3e2723;
+  border: none;
+  color: #f5ebdd;
+  font-weight: bold;
+  padding: 10px 28px;
+}
+
+.about-btn:hover {
+  background-color: #6f4e37;
+  color: #f5ebdd;
+}
+
+/* Smaller image and heading on phones */
+@media (max-width: 576px) {
+  .about-img {
+    height: 280px;
+  }
+
+  .about-heading {
+    font-size: 32px;
+  }
+}

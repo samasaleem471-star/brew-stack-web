@@ -1,0 +1,82 @@
+/* Section background */
+.contact-section {
+  background-color: #f5ebdd;
+}
+
+.contact-heading {
+  color: #3e2723;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.contact-subheading {
+  color: #6f4e37;
+  font-size: 18px;
+}
+
+/* Info rows (icon + text) */
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.contact-icon {
+  color: #c68b59;
+  font-size: 24px;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.contact-info h5 {
+  color: #3e2723;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.contact-info p {
+  color: #6f4e37;
+  margin: 0;
+}
+
+/* Form box */
+.contact-form {
+  background-color: #ffffff;
+  border: 1px solid #d9bfa3;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.contact-form label {
+  color: #3e2723;
+  font-weight: 600;
+}
+
+/* Brown outline when typing in a field */
+.contact-form .form-control:focus {
+  border-color: #c68b59;
+  box-shadow: 0 0 0 0.2rem rgba(198, 139, 89, 0.3);
+}
+
+/* Send button */
+.contact-btn {
+  background-color: #3e2723;
+  border: none;
+  color: #f5ebdd;
+  font-weight: bold;
+  padding: 10px 28px;
+}
+
+.contact-btn:hover {
+  background-color: #c68b59;
+  color: #3e2723;
+}
+
+/* Smaller heading on phones */
+@media (max-width: 576px) {
+  .contact-heading {
+    font-size: 32px;
+  }
+}

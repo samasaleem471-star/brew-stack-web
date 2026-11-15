@@ -1,0 +1,59 @@
+/* Section background */
+.menu-section {
+  background-color: #f5ebdd;
+}
+
+.menu-heading {
+  color: #3e2723;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.menu-subheading {
+  color: #6f4e37;
+  font-size: 18px;
+}
+
+/* Card */
+.menu-card {
+  background-color: #ffffff;
+  border: 1px solid #d9bfa3;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Same image size for every card */
+.menu-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu-card-title {
+  color: #3e2723;
+  font-weight: bold;
+}
+
+.menu-card-text {
+  color: #6f4e37;
+}
+
+/* Price */
+.menu-price {
+  color: #3e2723;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Add button */
+.menu-btn {
+  background-color: #6f4e37;
+  border: none;
+  color: #f5ebdd;
+  font-weight: bold;
+}
+
+.menu-btn:hover {
+  background-color: #c68b59;
+  color: #3e2723;
+}

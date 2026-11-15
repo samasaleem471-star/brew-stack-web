@@ -1,0 +1,38 @@
+/* Dark brown background */
+.header {
+  background-color: #3e2723;
+}
+
+/* Logo text color */
+.header .navbar-brand {
+  color: #f5ebdd;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Coffee icon color */
+.header-icon {
+  color: #c68b59;
+}
+
+/* Link colors */
+.header .nav-link {
+  color: #d9bfa3;
+}
+
+.header .nav-link:hover {
+  color: #c68b59;
+}
+
+/* Order Now button */
+.order-btn {
+  background-color: #c68b59;
+  border: none;
+  color: #3e2723;
+  font-weight: bold;
+}
+
+.order-btn:hover {
+  background-color: #f5ebdd;
+  color: #3e2723;
+}

@@ -1,0 +1,41 @@
+/* Full screen background image with a brown overlay */
+.hero {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(62, 39, 35, 0.75), rgba(62, 39, 35, 0.75)),
+    url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1920&q=80");
+  background-size: cover;
+  background-position: center;
+  color: #f5ebdd;
+}
+
+.hero-title {
+  font-family: Georgia, serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 20px;
+  color: #d9bfa3;
+  max-width: 500px;
+}
+
+/* Explore Menu button */
+.hero-btn {
+  background-color: #c68b59;
+  border: none;
+  color: #3e2723;
+  font-weight: bold;
+}
+
+.hero-btn:hover {
+  background-color: #f5ebdd;
+  color: #3e2723;
+}
+
+/* Smaller title on phones */
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 36px;
+  }
+}

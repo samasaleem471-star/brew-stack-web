@@ -1,0 +1,64 @@
+/* Dark brown background */
+.footer {
+  background-color: #3e2723;
+  color: #d9bfa3;
+}
+
+.footer-logo {
+  color: #f5ebdd;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.footer-icon {
+  color: #c68b59;
+}
+
+.footer-text {
+  color: #d9bfa3;
+  line-height: 1.6;
+}
+
+.footer-title {
+  color: #f5ebdd;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Lists without bullets */
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
+
+.footer-list a {
+  color: #d9bfa3;
+  text-decoration: none;
+}
+
+.footer-list a:hover {
+  color: #c68b59;
+}
+
+/* Social icons */
+.footer-social a {
+  color: #d9bfa3;
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.footer-social a:hover {
+  color: #c68b59;
+}
+
+/* Bottom copyright line */
+.footer-bottom {
+  border-top: 1px solid #6f4e37;
+  color: #d9bfa3;
+  font-size: 14px;
+}
